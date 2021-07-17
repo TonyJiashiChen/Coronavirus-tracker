@@ -4,6 +4,15 @@ public class LocationStats {
     private String country;
     private String state;
     private int latestTotalCases;
+    private int diffFromPrevDay;
+
+    public int getDiffFromPrevDay() {
+        return diffFromPrevDay;
+    }
+
+    public void setDiffFromPrevDay(int diffFromPrevDay) {
+        this.diffFromPrevDay = diffFromPrevDay;
+    }
 
     public String getCountry() {
         return country;
